@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+background-color:hsl(185, 75%, 39%) ;
+    align-items: center;
+    background-image: url('./images/bg-pattern-top.svg'),url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 15px;
+    background-position: right 45vw bottom 35vh, left 47vw top 50vh;
+    color: hsl(0, 0%, 59%);
+}
+
+.card {
+
+    text-align: center;
+  border-radius: 1.5rem;
+
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card  .svg {
+  
+    border-radius:10px 10px 0 0 ;
+}
+
+.info {
+    margin: 3rem;
+}
+ 
+.info img {
+    border-radius: 50%;
+    margin-top: -8rem;
+    border: solid 3px #fff;
+}
+
+.info p{
+    margin-top: .7rem;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+hr {
+    border: solid 0.1rem hsl(0, 0%, 59%);
+    opacity: 0.3;
+    border-bottom: none;
+    margin: 0;
+}
+
+.tres {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 1rem 2rem;
+}
+
+.tres p {
+    font-size: 10px;
+}
+
+
+
+
+
+  .attribution { font-size: 11px; text-align: center;
+padding-top: 30px;
+color: rgb(223, 38, 183); }
+  .attribution a { color: hsl(228, 26%, 93%); }
+
+
+
